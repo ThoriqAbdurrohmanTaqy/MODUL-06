@@ -1,3 +1,4 @@
+//sudha selesai kak
 import { useState } from 'react'
 import KartuMenu from './components/KartMenu'
 import Panel from './components/Panel'
