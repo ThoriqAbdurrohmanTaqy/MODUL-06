@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import KartuMenu from './components/KartMenu'
+import Panel from './components/Panel'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,11 +20,32 @@ function App() {
         <p>{9 < 12 ? "Selamat pagi" : "Selamat siang"}</p>
         <button disabled>Bayar</button>
 
+
+        <Panel>
+            <KartuMenu nama = "nasi ayam gepreek" harga = {100000 + N * 100} kategori = "makanan">
+            </KartuMenu>
+        </Panel>
+
+         <Panel>
+            <KartuMenu nama = "nasi ayam gepreek" harga = {100000} kategori = "makanan">
+            </KartuMenu>
+        </Panel>
+
+        <Panel>
+            <KartuMenu nama = "nasi ayam gepreek" harga = {100000} kategori = "minuman">
+            </KartuMenu>
+        </Panel>
     </>
+
+
 
   )
 
 }
+
+
+
+
 
 
 
