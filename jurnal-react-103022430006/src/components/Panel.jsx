@@ -1,3 +1,4 @@
+// sudah selesai dikejrakan
 function Panel({ judul, children }) {
   return (
     <>
