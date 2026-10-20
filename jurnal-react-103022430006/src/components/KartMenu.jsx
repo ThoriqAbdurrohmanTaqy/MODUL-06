@@ -16,5 +16,4 @@ function KartuMenu({ nama, harga, kategori = "Makanan" }) {
   )
 }
 
-
 export default App
